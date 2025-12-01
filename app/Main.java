@@ -1,7 +1,6 @@
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
-import java.sql.Statement;
 import java.util.Scanner;
 
 public class Main {
@@ -30,19 +29,6 @@ public class Main {
         	throw new SQLException("JDBC driver not found", e);
         }
     }
-
-	// Set the database back to its original state
-	public static void reset() {
-		try (Connection connection = connect()) {
-			Statement statement = connection.createStatement();
-
-			// RESET THE DATABASE, ONLY ADD AS A HELPER FUNCTION IF NEEDED
-
-		}
-		catch (Exception e) {
-			System.out.println(e);
-		}
-	}
 
 	// Clear the terminal output
 	public static void clear() {

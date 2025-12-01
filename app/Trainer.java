@@ -47,7 +47,7 @@ public class Trainer {
 					System.out.println("-- Enter START TIME --");
 					input = scanner.nextLine();
 					Time startTime = Time.valueOf(input + ":00");
-					System.out.println("-- Enter END TIME--");
+					System.out.println("-- Enter END TIME --");
 					input = scanner.nextLine();
 					Time endTime = Time.valueOf(input + ":00");
 
