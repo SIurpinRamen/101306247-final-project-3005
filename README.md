@@ -10,4 +10,10 @@
 	- Alternatively you can open `run.bat` in `project-root` (only works on Windows)
 
 ## Demo video
-- 
+- https://www.youtube.com/watch?v=td1rt3_Phqk
+
+## Addiontal info
+- I forgot to mention in the video, but the project structure follows the spec with some additions:
+	- Both diagrams are added to the `/docs` folder to view as PNGs along with the regular ERD doc
+	- The `run.bat` is kept in the root folder but compiles/runs everything in `/app`
+- DDL and DML statements are both kept in `/sql`
